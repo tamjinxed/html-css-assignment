@@ -1,0 +1,39 @@
+header {
+    background-image: \assets\bg-hero-desktop.svg ;
+}
+    header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+.btn-header{
+    background-color: default;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+    color: rgb(13, 13, 14);
+    padding: 5px 50px;
+    border: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.flex div {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    border: 1px solid #000; /* Optional for debugging */
+  }
+  img {
+    width: 50vw;
+    height: auto; /* Maintains the aspect ratio */
+  }
+div {
+        width: 50vw;
+        height: auto; /* Maintains the aspect ratio */
+ 
+}
